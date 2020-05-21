@@ -16,13 +16,25 @@ Loop{
 if(breakcond = 1){
 	return
 }
-ImageSearch, rdyX, rdyY, 0, 0, A_ScreenWidth, A_ScreenHeight, *20 %A_WorkingDir%\hotkeyimages\readybutton.PNG
+ImageSearch, rdyX, rdyY, 0, 0, A_ScreenWidth, A_ScreenHeight, *20 %A_WorkingDir%\hotkeyimages\play.PNG
 if (ErrorLevel = 0)
 {
 	Click, %rdyX%, %rdyY%
 	sleep, wait
 }
 ImageSearch, rdyX, rdyY, 0, 0, A_ScreenWidth, A_ScreenHeight, *20 %A_WorkingDir%\hotkeyimages\continue.PNG
+if (ErrorLevel = 0)
+{
+	Click, %rdyX%, %rdyY%
+	sleep, wait
+}
+ImageSearch, rdyX, rdyY, 0, 0, A_ScreenWidth, A_ScreenHeight, *20 %A_WorkingDir%\hotkeyimages\mulligan.PNG
+if (ErrorLevel = 0)
+{
+	Click, %rdyX%, %rdyY%
+	sleep, wait
+}
+ImageSearch, rdyX, rdyY, 0, 0, A_ScreenWidth, A_ScreenHeight, *20 %A_WorkingDir%\hotkeyimages\quest continue.PNG
 if (ErrorLevel = 0)
 {
 	Click, %rdyX%, %rdyY%
