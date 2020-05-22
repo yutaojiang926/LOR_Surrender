@@ -31,8 +31,8 @@ if (ErrorLevel = 0)
 ImageSearch, rdyX, rdyY, 0, 0, A_ScreenWidth, A_ScreenHeight, *20 %A_WorkingDir%\hotkeyimages\mulligan.PNG
 if (ErrorLevel = 0)
 {
-	Click, %rdyX%, %rdyY%
 	sleep, wait
+	Click, %rdyX%, %rdyY%
 }
 ImageSearch, rdyX, rdyY, 0, 0, A_ScreenWidth, A_ScreenHeight, *20 %A_WorkingDir%\hotkeyimages\quest continue.PNG
 if (ErrorLevel = 0)
