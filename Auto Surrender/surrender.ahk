@@ -33,6 +33,8 @@ if (ErrorLevel = 0)
 {
 	sleep, wait
 	Click, %rdyX%, %rdyY%
+	sleep, wait
+	MouseMove, 0, 0
 }
 ImageSearch, rdyX, rdyY, 0, 0, A_ScreenWidth, A_ScreenHeight, *20 %A_WorkingDir%\hotkeyimages\quest continue.PNG
 if (ErrorLevel = 0)
