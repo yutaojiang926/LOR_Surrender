@@ -14,3 +14,5 @@ ctrl+p to pause surrendering
 ctrl+k to go into game and afk
 
 ctrl+q to stop program
+
+notes: ctrl+k works best with a deck with 40 unplayable spells and auto pass turned on
